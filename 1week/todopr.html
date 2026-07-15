@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="todopr.css">
-    <title>Document</title>
+    <title>copt-TodoList</title>
 </head>
 <body>
-    <h1>Horizontal Navigation Menu</h1>
-    <p>List items are displayed vertically by default</p>
-    <ul class="nav">
-        <li><a href="/home">Home</a></li>
-        <li><a href="/About us">About us</a></li>
-        <li><a href="/contact">Contact us</a></li>
-    </ul>
+    <main class="container">
+        <h1>TodoList</h1>
+        <p class="description">오늘 해야 할 일을 입력하고 관리해 봅니다.</p>
+
+        <form class="todo-form">
+            <input type="text" placeholder="할 일을 적어주세요" autocomplete="off">
+            <button type="submit">submit</button>
+        </form>
+    </main>
 </body>
 </html>
