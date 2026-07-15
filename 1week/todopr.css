@@ -1,0 +1,4 @@
+.nav{background-color: aquamarine; list-style-type: none; margin: 0; padding: 0;}
+.nav li{
+    display: inline-block; font-size: 18px; padding: 15px;
+}
