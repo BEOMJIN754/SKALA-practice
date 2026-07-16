@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <table border="1" width="100%">
+            <thead>
+              <tr>  
+                <th>no</th>
+                <th>name</th>
+                <th>company</th>
+                <th>price</th>
+                <th>car</th>
+             </tr>   
+            </thead>
+             <tbody id = "carList">
+             </tbody>
+        </table>
+        <script>
+            var carList = [
+                {name: sonata, company: hyundai, price:3000, year:2000},
+                {name: sonata, company: hyundai, price:3000, year:2000},
+                {name: sonata, company: hyundai, price:3000, year:2000},
+            
+            ]
+            var carList = document.getElementById('carList');
+            for(var i=0;i<10;i++){
+            carList.innerHTML +=`
+            <tr>
+            <td>${i}</td>
+            <th>${carList[i]['name']}</td>
+            <td>company</td>
+            <td>price</td>
+            <td>car</td>
+            </tr>
+            `}
+        </script>
+    </main>
+</body>
+</html>
